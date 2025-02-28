@@ -14,14 +14,11 @@ Added calendar selection for due dates
 
 UI/UX ~1h:
 Made the interface clean and intuitive
-Created layouts for both phone and tablet
 Added visual indicators for priorities and completion
 Added feedback for user actions
 
 Testing ~30m:
-Tested on different screen sizes
 Fixed edge cases in the task movement
-Made sure it works in both orientations
 
 Challenges:
 Got the core functionality up pretty quickly, but then went down a rabbit hole trying to figure out drag and drop in react native (didnt realize it was more complicated than normal react). This took more time than expected, and I eventually had to backtrack and use a simpler action-sheet approach. This ended up being more reliable anyway, especially across different device sizes.
