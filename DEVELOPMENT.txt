@@ -1,0 +1,32 @@
+Dev Log - Kanban Board App
+Feb 27, 2025
+
+Spent about 4 hours on the app. Got most of the core features working, but had to make some tradeoffs to respect the time limit and not get too carried away.
+
+What I accomplished:
+
+Core functionality ~2h:
+Built the basic kanban board with To Do, In Progress, and Done columns
+Created task creation modal with all the metadata fields
+Added ability to move tasks between columns via long-press
+Made task cards expandable to show details
+Added calendar selection for due dates
+
+UI/UX ~1h:
+Made the interface clean and intuitive
+Created layouts for both phone and tablet
+Added visual indicators for priorities and completion
+Added feedback for user actions
+
+Testing ~30m:
+Tested on different screen sizes
+Fixed edge cases in the task movement
+Made sure it works in both orientations
+
+Challenges:
+Got the core functionality up pretty quickly, but then went down a rabbit hole trying to figure out drag and drop in react native (didnt realize it was more complicated than normal react). This took more time than expected, and I eventually had to backtrack and use a simpler action-sheet approach. This ended up being more reliable anyway, especially across different device sizes.
+Added the calendar date picker since it was relatively quick to implement and seemed important for task management.
+Given more time, I would add proper drag and drop, task filtering, mock API integration, local storage, and performance testing with many tasks. 
+Overall, app has the essential functionality as a usable personal kanban app, but there's definitely room for enhancement. 
+
+Was good exposure to react native, definitely helped brush up on mobile development. In the future might speed things up to use the new claude 3.7 cli feature, hearing some buzz abotu that if you're interested. 
