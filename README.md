@@ -13,7 +13,10 @@ A React Native drag-and-drop Kanban board app built with Expo, allowing users to
 
 ## Screenshots
 
-![Screenshot 1](screenshots/screenshot1.png)
+![Screenshot 1](screenshots/screenshot1.PNG)
+![Screenshot 2](screenshots/screenshot2.PNG)
+![Screenshot 3](screenshots/screenshot3.PNG)
+![Screenshot 4](screenshots/screenshot4.PNG)
 
 ## Installation
 
@@ -26,7 +29,16 @@ A React Native drag-and-drop Kanban board app built with Expo, allowing users to
 ### Setup
 
 1. Clone the repository:
-```bash
+
 git clone https://github.com/tiborthompson/kanban-board-app.git
 cd kanban-board-app 
 
+2. Install dependencies:
+
+npm install
+
+3. Start the App: 
+
+npx expo start -c 
+
+# or us a simulator
