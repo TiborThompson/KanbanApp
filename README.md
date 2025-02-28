@@ -41,5 +41,5 @@ npm install
 
 npx expo start -c 
 
-# or use a simulator 
+...or use a simulator 
 
